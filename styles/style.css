@@ -141,6 +141,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     padding: 2px 0;
     margin-top: 34vh;
+    flex-wrap: wrap;
 }
 
 footer .pais{
@@ -153,6 +154,7 @@ footer .opc {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
+    flex-wrap: wrap;
 }
 
 footer .opc ul{
@@ -160,6 +162,7 @@ footer .opc ul{
     list-style: none;
     padding-left: 0.5vh;
     padding-right: 3vh;
+    flex-wrap: wrap;
 }
 
 footer .opc ul a{
@@ -169,9 +172,162 @@ footer .opc ul a{
     margin-right: 0.5vh;
     color:black;
     text-decoration: none;
+    flex-wrap: wrap;
 }
 
 footer .opc ul a:hover
 {
     text-decoration: underline;
 }
+
+
+/*Responsive*/
+
+@media screen and (max-width: 320px){
+
+    #navbar ul a li {
+        font-size: 13px;
+    }
+
+    .Logo {
+        margin-top: 5vh;
+    }
+
+    .Logo .google-logo {
+        font-size: 60px;
+    }
+
+    .busqueda .input-busqueda .bus input {
+        width: 22vh;
+        height: 4.5vh;
+    }
+
+    .busqueda .input-busqueda .imagenes .lupa{
+        width: 18px;
+        margin-top: 3px;
+    }
+
+    .busqueda .input-busqueda .imagenes .icons{
+        margin-left: 28vh;
+    }
+    
+    .busqueda .input-busqueda .imagenes .mic,
+    .busqueda .input-busqueda .imagenes .cam{
+        width: 28px;
+        padding-top: 3px;
+    }
+
+    .busqueda .buttons .btn{
+        height: 5vh;
+        width: 17vh;
+    }
+
+    footer {
+        margin-top: 34vh;
+    }
+    
+    footer .opc{
+        justify-content: center;
+        
+    }
+
+    footer .opc ul{
+        justify-content: center;
+        padding-left: 0vh;
+        padding-right: 0vh;
+        flex-wrap: wrap;
+        margin:0;
+    }
+
+    footer .opc ul a li{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul a{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+} 
+
+@media screen and (max-width: 376px){
+
+    #navbar ul a li {
+        font-size: 13px;
+    }
+
+    .Logo {
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+    }
+
+    .Logo .google-logo .elogo{
+        margin-left:-2px;
+    }
+
+    .Logo .google-logo {
+        font-size: 40px;
+    }
+
+    .busqueda .input-busqueda {
+        margin-top: 11vh;
+    }
+
+    .busqueda .input-busqueda .bus input {
+        width: 27vh;
+        height: 4.5vh;
+    }
+
+    .busqueda .input-busqueda .imagenes .lupa{
+        width: 18px;
+        margin-top: 3px;
+    }
+
+    .busqueda .input-busqueda .imagenes .icons{
+        margin-left: 33vh;
+    }
+    
+    .busqueda .input-busqueda .imagenes .mic,
+    .busqueda .input-busqueda .imagenes .cam{
+        width: 28px;
+        padding-top: 3px;
+    }
+
+    .busqueda .buttons .btn{
+        height: 5vh;
+        width: 17vh;
+    }
+
+    footer {
+        margin-top: 31vh;
+    }
+    
+    footer .opc{
+        justify-content: center;
+        
+    }
+
+    footer .opc ul{
+        justify-content: center;
+        padding-left: 0vh;
+        padding-right: 0vh;
+        flex-wrap: wrap;
+        margin:0;
+    }
+
+    footer .opc ul a li{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul a{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+} 
