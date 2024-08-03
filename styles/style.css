@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-#navbar{
+#navbar {
     display: flex;
     justify-content: end;
 }
@@ -49,8 +49,8 @@ body {
     margin: 0px;
 }
 
-.Logo .google-logo .elogo{
-    margin-left:-5px;
+.Logo .google-logo .elogo {
+    margin-left: -5px;
     transform: rotate(-20deg);
 }
 
@@ -89,7 +89,7 @@ body {
     margin-left: 2vh;
 }
 
-.busqueda .input-busqueda .imagenes .icons{
+.busqueda .input-busqueda .imagenes .icons {
     position: inherit;
     display: flex;
     justify-content: end;
@@ -98,13 +98,13 @@ body {
 }
 
 .busqueda .input-busqueda .imagenes .mic,
-.busqueda .input-busqueda .imagenes .cam{
+.busqueda .input-busqueda .imagenes .cam {
     width: 32px;
     padding-left: 1.5vh;
     cursor: pointer;
 }
 
-.busqueda .input-busqueda .imagenes .lupa{
+.busqueda .input-busqueda .imagenes .lupa {
     width: 20px;
     position: absolute;
 }
@@ -114,7 +114,7 @@ body {
     justify-content: center;
 }
 
-.busqueda .buttons .btn{
+.busqueda .buttons .btn {
     align-items: center;
     margin-left: 1vh;
     margin-right: 1vh;
@@ -124,16 +124,16 @@ body {
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     line-height: 1vh;
-    box-shadow: 0 1px 1px rgba(0, 0, 0,0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
-.busqueda .buttons .btn:hover{
-    box-shadow: 0 1px 2px rgba(0, 0, 0,0.2);
+.busqueda .buttons .btn:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     background-color: #f2f2f2;
@@ -144,7 +144,7 @@ footer{
     flex-wrap: wrap;
 }
 
-footer .pais{
+footer .pais {
     font-size: 14px;
     padding-left: 2vh;
     border-bottom: 1px solid #e4e4e4;
@@ -157,7 +157,7 @@ footer .opc {
     flex-wrap: wrap;
 }
 
-footer .opc ul{
+footer .opc ul {
     display: flex;
     list-style: none;
     padding-left: 0.5vh;
@@ -165,185 +165,102 @@ footer .opc ul{
     flex-wrap: wrap;
 }
 
-footer .opc ul a{
+footer .opc ul a {
     display: flex;
     align-items: start;
     margin-left: 4vh;
     margin-right: 0.5vh;
-    color:black;
+    color: black;
     text-decoration: none;
     flex-wrap: wrap;
 }
 
-footer .opc ul a:hover
-{
+footer .opc ul a:hover {
     text-decoration: underline;
 }
 
 
 /*Responsive*/
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px) {
 
-    body {
-        height: 100%;
-    }
 
     #navbar ul a li {
         font-size: 13px;
-    }
-
-    .Logo {
-        margin-top: 5vh;
-        margin-bottom: 2vh;
-    }
-
-    .Logo .google-logo .elogo{
-        margin-left:-2px;
+        margin-bottom: -8vh;
     }
 
     .Logo .google-logo {
-        font-size: 40px;
-    }
-
-    .busqueda .input-busqueda {
-        margin-top: 11vh;
-        margin-bottom: 0vh;
-    }
-
-    .busqueda .input-busqueda .bus input {
-        width: 27vh;
-        height: 4.5vh;
-        margin-top: -9vh;
-    }
-
-    .busqueda .input-busqueda .imagenes .lupa{
-        width: 18px;
-        margin-top: 3px;
-    }
-
-    .busqueda .input-busqueda .imagenes .icons{
-        margin-left: 33vh;
-    }
-    
-    .busqueda .input-busqueda .imagenes .mic,
-    .busqueda .input-busqueda .imagenes .cam{
-        width: 28px;
-        padding-top: 3px;
-    }
-
-    .busqueda .buttons{
-        padding-top: 4vh;
-    }
-
-    .busqueda .buttons .btn{
-        height: 5vh;
-        width: 17vh;
-    }
-    
-    footer .opc{
-        justify-content: center;
-    }
-
-    footer .opc ul{
-        justify-content: center;
-        padding-left: 0vh;
-        padding-right: 0vh;
-        flex-wrap: wrap;
-        margin:0;
-    }
-
-    footer .opc ul a li{
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    footer .opc ul a{
         display: flex;
-        justify-content: center;
-        margin: 10px;
-        flex-wrap: wrap;
-    }
-
-} 
-
-@media screen and (max-width: 376px){
-
-    #navbar ul a li {
-        font-size: 13px;
-    }
-
-    .Logo {
-        margin-top: 5vh;
-        margin-bottom: 2vh;
-    }
-
-    .Logo .google-logo .elogo{
-        margin-left:-2px;
-    }
-
-    .Logo .google-logo {
         font-size: 40px;
+        padding-bottom: 4vh;
     }
 
-    .busqueda .input-busqueda {
-        margin-top: 11vh;
-    }
-
-    .busqueda .input-busqueda .bus input {
-        width: 27vh;
-        height: 4.5vh;
-        margin-top: -9vh;
-    }
-
-    .busqueda .input-busqueda .imagenes .lupa{
-        width: 18px;
-        margin-top: 3px;
-    }
-
-    .busqueda .input-busqueda .imagenes .icons{
-        margin-left: 33vh;
+    .Logo .google-logo .elogo {
+        margin-left: -2px;
     }
     
-    .busqueda .input-busqueda .imagenes .mic,
-    .busqueda .input-busqueda .imagenes .cam{
-        width: 28px;
-        padding-top: 3px;
+
+    .busqueda .input-busqueda .bus input {
+        width: 20vh;
+        height: 4.5vh;
+        margin-left: 0;
+        margin-right: 0;
     }
 
-    .busqueda .buttons .btn{
+    .busqueda .input-busqueda .imagenes .icons {
+        margin: 0;
+        margin-left: 27vh;
+    }
+
+    .busqueda .input-busqueda .imagenes .mic,
+    .busqueda .input-busqueda .imagenes .cam {
+        width: 25px;
+        padding-left: 1.5vh;
+        cursor: pointer;
+    }
+
+    .busqueda .input-busqueda .imagenes .lupa {
+        width: 20px;
+        margin-top: 2px;
+    }
+
+    .busqueda .buttons .btn {
         height: 5vh;
         width: 17vh;
-        margin-top: -5vh;
     }
+    
 
     footer {
-        margin-top: 41vh;
-    }
-    
-    footer .opc{
-        justify-content: center;
-        
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+        margin-top: 35vh;
     }
 
-    footer .opc ul{
+    footer .opc {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul {
         justify-content: center;
         padding-left: 0vh;
         padding-right: 0vh;
         flex-wrap: wrap;
-        margin:0;
+        margin: 0;
     }
 
-    footer .opc ul a li{
+    footer .opc ul a li {
         justify-content: center;
         flex-wrap: wrap;
     }
 
-    footer .opc ul a{
+    footer .opc ul a {
         display: flex;
         justify-content: center;
         margin: 10px;
         flex-wrap: wrap;
     }
 
-} 
+}
