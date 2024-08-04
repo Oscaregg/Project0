@@ -99,7 +99,7 @@ body {
 
 .busqueda .input-busqueda .imagenes .mic,
 .busqueda .input-busqueda .imagenes .cam {
-    width: 32px;
+    width: 34px;
     padding-left: 1.5vh;
     cursor: pointer;
 }
@@ -182,8 +182,7 @@ footer .opc ul a:hover {
 
 /*Responsive*/
 
-@media screen and (max-width: 320px) {
-
+@media screen and (max-width: 320px) and (max-width: 374px){
 
     #navbar ul a li {
         font-size: 13px;
@@ -215,7 +214,7 @@ footer .opc ul a:hover {
 
     .busqueda .input-busqueda .imagenes .mic,
     .busqueda .input-busqueda .imagenes .cam {
-        width: 25px;
+        width: 26px;
         padding-left: 1.5vh;
         cursor: pointer;
     }
@@ -236,6 +235,415 @@ footer .opc ul a:hover {
         margin-right: 0;
         flex-wrap: wrap;
         margin-top: 35vh;
+    }
+
+    footer .opc {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul {
+        justify-content: center;
+        padding-left: 0vh;
+        padding-right: 0vh;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    footer .opc ul a li {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul a {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px){
+
+    #navbar ul a li {
+        font-size: 13px;
+        margin-bottom: -8vh;
+    }
+
+    .Logo .google-logo {
+        display: flex;
+        font-size: 40px;
+        padding-bottom: 4vh;
+    }
+
+    .Logo .google-logo .elogo {
+        margin-left: -2px;
+    }
+    
+
+    .busqueda .input-busqueda .bus input {
+        width: 25vh;
+        height: 4.5vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .busqueda .input-busqueda .imagenes .icons {
+        margin: 0;
+        margin-left: 32vh;
+    }
+
+    .busqueda .input-busqueda .imagenes .mic,
+    .busqueda .input-busqueda .imagenes .cam {
+        width: 25px;
+        padding-left: 1.5vh;
+        cursor: pointer;
+    }
+
+    .busqueda .input-busqueda .imagenes .lupa {
+        width: 20px;
+        margin-top: 2px;
+    }
+
+    .busqueda .buttons .btn {
+        height: 5vh;
+        width: 17vh;
+    }
+    
+
+    footer {
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+        margin-top: 40.5vh;
+    }
+
+    footer .opc {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul {
+        justify-content: center;
+        padding-left: 0vh;
+        padding-right: 0vh;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    footer .opc ul a li {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul a {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+
+
+    #navbar ul a li {
+        font-size: 13px;
+        margin-bottom: -8vh;
+    }
+
+    .Logo .google-logo {
+        display: flex;
+        font-size: 60px;
+        padding-bottom: 4vh;
+    }
+
+    .Logo .google-logo .elogo {
+        margin-left: -2px;
+    }
+    
+
+    .busqueda .input-busqueda .bus input {
+        width: 30vh;
+        height: 4.5vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .busqueda .input-busqueda .imagenes .icons {
+        margin: 0;
+        margin-left: 35.5vh;
+    }
+
+    .busqueda .input-busqueda .imagenes .mic,
+    .busqueda .input-busqueda .imagenes .cam {
+        width: 29px;
+        padding-left: 1.5vh;
+        cursor: pointer;
+    }
+
+    .busqueda .input-busqueda .imagenes .lupa {
+        width: 20px;
+        margin-top: 2px;
+    }
+
+    .busqueda .buttons .btn {
+        height: 5vh;
+        width: 17vh;
+    }
+    
+
+    footer {
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+        margin-top: 33vh;
+    }
+
+    footer .opc {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul {
+        justify-content: center;
+        padding-left: 0vh;
+        padding-right: 0vh;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    footer .opc ul a li {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul a {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+
+    #navbar ul a li {
+        font-size: 13px;
+        margin-bottom: -8vh;
+    }
+
+    .Logo .google-logo {
+        display: flex;
+        font-size: 70px;
+        padding-bottom: 3vh;
+    }
+
+    .Logo .google-logo .elogo {
+        margin-left: -2px;
+    }
+    
+
+    .busqueda .input-busqueda .bus input {
+        width: 55vh;
+        height: 5.5vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .busqueda .input-busqueda .imagenes .icons {
+        margin-bottom: 2px;
+        margin-left: 60vh;
+    }
+
+    .busqueda .input-busqueda .imagenes .mic,
+    .busqueda .input-busqueda .imagenes .cam {
+        width: 28px;
+        padding-left: 1.5vh;
+        cursor: pointer;
+    }
+
+    .busqueda .input-busqueda .imagenes .lupa {
+        width: 20px;
+        margin-top: 2px;
+    }
+
+    .busqueda .buttons .btn {
+        height: 5vh;
+        width: 17vh;
+    }
+    
+    footer {
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+        margin-top: 34.8vh;
+    }
+
+    footer .opc {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul {
+        justify-content: center;
+        padding-left: 0vh;
+        padding-right: 0vh;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    footer .opc ul a li {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul a {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    #navbar ul a li {
+        font-size: 13px;
+        margin-bottom: -8vh;
+    }
+
+    .Logo .google-logo {
+        display: flex;
+        font-size: 70px;
+        padding-bottom: 3vh;
+    }
+
+    .Logo .google-logo .elogo {
+        margin-left: -2px;
+    }
+    
+
+    .busqueda .input-busqueda .bus input {
+        width: 55vh;
+        height: 5.5vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .busqueda .input-busqueda .imagenes .icons {
+        margin-bottom: 2px;
+        margin-left: 60vh;
+    }
+
+    .busqueda .input-busqueda .imagenes .mic,
+    .busqueda .input-busqueda .imagenes .cam {
+        width: 28px;
+        padding-left: 1.5vh;
+        cursor: pointer;
+    }
+
+    .busqueda .input-busqueda .imagenes .lupa {
+        width: 20px;
+        margin-top: 2px;
+    }
+
+    .busqueda .buttons .btn {
+        height: 5vh;
+        width: 17vh;
+    }
+    
+    footer {
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+        margin-top: 34.8vh;
+    }
+
+    footer .opc {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul {
+        justify-content: center;
+        padding-left: 0vh;
+        padding-right: 0vh;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    footer .opc ul a li {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    footer .opc ul a {
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1441px) {
+
+    #navbar ul a li {
+        font-size: 13px;
+        margin-bottom: -8vh;
+    }
+
+    .Logo .google-logo {
+        display: flex;
+        font-size: 70px;
+        padding-bottom: 3vh;
+    }
+
+    .Logo .google-logo .elogo {
+        margin-left: -2px;
+    }
+    
+
+    .busqueda .input-busqueda .bus input {
+        width: 55vh;
+        height: 5.5vh;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .busqueda .input-busqueda .imagenes .icons {
+        margin-bottom: 2px;
+        margin-left: 60vh;
+    }
+
+    .busqueda .input-busqueda .imagenes .mic,
+    .busqueda .input-busqueda .imagenes .cam {
+        width: 28px;
+        padding-left: 1.5vh;
+        cursor: pointer;
+    }
+
+    .busqueda .input-busqueda .imagenes .lupa {
+        width: 20px;
+        margin-top: 2px;
+    }
+
+    .busqueda .buttons .btn {
+        height: 5vh;
+        width: 17vh;
+    }
+    
+    footer {
+        margin-left: 0;
+        margin-right: 0;
+        flex-wrap: wrap;
+        margin-top: 34.8vh;
     }
 
     footer .opc {
